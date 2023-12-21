@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="havut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="huonekasvit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="hyötykasvit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="kesäkukat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="köynnökset.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="liljat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="pensaat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="valikko.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
