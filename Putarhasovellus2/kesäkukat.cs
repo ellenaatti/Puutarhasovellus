@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Putarhasovellus2
 {
-    public partial class kesakukat : Form
+    public partial class Kesakukat : Form
     {
-        public kesakukat()
+        public Kesakukat()
         {
             InitializeComponent();
         }
 
-        private void takaisinbtn3_Click(object sender, EventArgs e)
+        private void Backbtn_Click(object sender, EventArgs e)
         {
-            valikko valikko = new valikko();
+            Valikko valikko = new Valikko();
 
             this.Close();
         }

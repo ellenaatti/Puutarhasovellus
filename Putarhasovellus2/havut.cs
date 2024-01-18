@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Putarhasovellus2
 {
-    public partial class havut : Form
+    public partial class Havut : Form
     {
-        public havut()
+        public Havut()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Backbtn_Click(object sender, EventArgs e)
         {
-            valikko valikko = new valikko();
+            Valikko valikko = new Valikko();
 
             this.Close();
         }

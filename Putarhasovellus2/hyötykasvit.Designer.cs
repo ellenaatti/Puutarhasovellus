@@ -1,6 +1,6 @@
 ﻿namespace Putarhasovellus2
 {
-    partial class hyotykasvit
+    partial class Hyotykasvit
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(hyotykasvit));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hyotykasvit));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -43,21 +43,21 @@
             pictureBox12 = new PictureBox();
             pictureBox13 = new PictureBox();
             pictureBox14 = new PictureBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            textBox9 = new TextBox();
-            textBox10 = new TextBox();
-            textBox11 = new TextBox();
-            textBox12 = new TextBox();
-            textBox13 = new TextBox();
-            textBox14 = new TextBox();
             button1 = new Button();
+            chililabel = new Label();
+            paprikalabel = new Label();
+            herukkalabel = new Label();
+            karviainenlabel = new Label();
+            kirsikkalabel = new Label();
+            luumulabel = new Label();
+            mansikkalabel = new Label();
+            omenalabel = new Label();
+            pensasmustikkalabel = new Label();
+            tomaattilabel = new Label();
+            vadelmalabel = new Label();
+            paarynalabel = new Label();
+            viinikoynnoslabel = new Label();
+            kurkkulabel = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -77,9 +77,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(13, 12);
+            pictureBox1.Location = new Point(19, 20);
+            pictureBox1.Margin = new Padding(4, 5, 4, 5);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(197, 118);
+            pictureBox1.Size = new Size(281, 197);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -87,9 +88,10 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(13, 150);
+            pictureBox2.Location = new Point(19, 250);
+            pictureBox2.Margin = new Padding(4, 5, 4, 5);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(109, 132);
+            pictureBox2.Size = new Size(156, 220);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 1;
             pictureBox2.TabStop = false;
@@ -97,9 +99,10 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(14, 308);
+            pictureBox3.Location = new Point(20, 513);
+            pictureBox3.Margin = new Padding(4, 5, 4, 5);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(196, 101);
+            pictureBox3.Size = new Size(280, 168);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
@@ -107,9 +110,10 @@
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(13, 428);
+            pictureBox4.Location = new Point(19, 713);
+            pictureBox4.Margin = new Padding(4, 5, 4, 5);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(159, 118);
+            pictureBox4.Size = new Size(227, 197);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
@@ -117,9 +121,10 @@
             // pictureBox5
             // 
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(12, 567);
+            pictureBox5.Location = new Point(17, 945);
+            pictureBox5.Margin = new Padding(4, 5, 4, 5);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(187, 118);
+            pictureBox5.Size = new Size(267, 197);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 4;
             pictureBox5.TabStop = false;
@@ -127,9 +132,10 @@
             // pictureBox6
             // 
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(13, 704);
+            pictureBox6.Location = new Point(19, 1173);
+            pictureBox6.Margin = new Padding(4, 5, 4, 5);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(178, 118);
+            pictureBox6.Size = new Size(254, 197);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 5;
             pictureBox6.TabStop = false;
@@ -137,9 +143,10 @@
             // pictureBox7
             // 
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(428, 12);
+            pictureBox7.Location = new Point(611, 20);
+            pictureBox7.Margin = new Padding(4, 5, 4, 5);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(179, 118);
+            pictureBox7.Size = new Size(256, 197);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 6;
             pictureBox7.TabStop = false;
@@ -147,9 +154,10 @@
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(428, 150);
+            pictureBox8.Location = new Point(611, 250);
+            pictureBox8.Margin = new Padding(4, 5, 4, 5);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(179, 118);
+            pictureBox8.Size = new Size(256, 197);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 7;
             pictureBox8.TabStop = false;
@@ -157,9 +165,10 @@
             // pictureBox9
             // 
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(432, 291);
+            pictureBox9.Location = new Point(617, 485);
+            pictureBox9.Margin = new Padding(4, 5, 4, 5);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(157, 118);
+            pictureBox9.Size = new Size(224, 197);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox9.TabIndex = 8;
             pictureBox9.TabStop = false;
@@ -167,9 +176,10 @@
             // pictureBox10
             // 
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(432, 428);
+            pictureBox10.Location = new Point(617, 713);
+            pictureBox10.Margin = new Padding(4, 5, 4, 5);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(179, 118);
+            pictureBox10.Size = new Size(256, 197);
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox10.TabIndex = 9;
             pictureBox10.TabStop = false;
@@ -177,9 +187,10 @@
             // pictureBox11
             // 
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(432, 567);
+            pictureBox11.Location = new Point(617, 945);
+            pictureBox11.Margin = new Padding(4, 5, 4, 5);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(166, 118);
+            pictureBox11.Size = new Size(237, 197);
             pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox11.TabIndex = 10;
             pictureBox11.TabStop = false;
@@ -187,9 +198,10 @@
             // pictureBox12
             // 
             pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(432, 704);
+            pictureBox12.Location = new Point(617, 1177);
+            pictureBox12.Margin = new Padding(4, 5, 4, 5);
             pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(121, 118);
+            pictureBox12.Size = new Size(173, 197);
             pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox12.TabIndex = 11;
             pictureBox12.TabStop = false;
@@ -197,9 +209,10 @@
             // pictureBox13
             // 
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(814, 12);
+            pictureBox13.Location = new Point(1163, 20);
+            pictureBox13.Margin = new Padding(4, 5, 4, 5);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(167, 208);
+            pictureBox13.Size = new Size(239, 347);
             pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox13.TabIndex = 12;
             pictureBox13.TabStop = false;
@@ -207,155 +220,172 @@
             // pictureBox14
             // 
             pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(825, 383);
+            pictureBox14.Location = new Point(1179, 638);
+            pictureBox14.Margin = new Padding(4, 5, 4, 5);
             pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(148, 217);
+            pictureBox14.Size = new Size(211, 362);
             pictureBox14.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox14.TabIndex = 13;
             pictureBox14.TabStop = false;
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(223, 12);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(175, 118);
-            textBox1.TabIndex = 14;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(147, 150);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(251, 132);
-            textBox2.TabIndex = 15;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(223, 308);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(175, 101);
-            textBox3.TabIndex = 16;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(192, 428);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(206, 118);
-            textBox4.TabIndex = 17;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(223, 567);
-            textBox5.Multiline = true;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(175, 118);
-            textBox5.TabIndex = 18;
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(223, 704);
-            textBox6.Multiline = true;
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(175, 118);
-            textBox6.TabIndex = 19;
-            // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(629, 12);
-            textBox7.Multiline = true;
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(155, 118);
-            textBox7.TabIndex = 20;
-            // 
-            // textBox8
-            // 
-            textBox8.Location = new Point(629, 150);
-            textBox8.Multiline = true;
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(155, 118);
-            textBox8.TabIndex = 21;
-            // 
-            // textBox9
-            // 
-            textBox9.Location = new Point(620, 291);
-            textBox9.Multiline = true;
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(164, 118);
-            textBox9.TabIndex = 22;
-            // 
-            // textBox10
-            // 
-            textBox10.Location = new Point(629, 428);
-            textBox10.Multiline = true;
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(155, 118);
-            textBox10.TabIndex = 23;
-            // 
-            // textBox11
-            // 
-            textBox11.Location = new Point(620, 567);
-            textBox11.Multiline = true;
-            textBox11.Name = "textBox11";
-            textBox11.Size = new Size(164, 118);
-            textBox11.TabIndex = 24;
-            // 
-            // textBox12
-            // 
-            textBox12.Location = new Point(579, 704);
-            textBox12.Multiline = true;
-            textBox12.Name = "textBox12";
-            textBox12.Size = new Size(205, 118);
-            textBox12.TabIndex = 25;
-            // 
-            // textBox13
-            // 
-            textBox13.Location = new Point(814, 622);
-            textBox13.Multiline = true;
-            textBox13.Name = "textBox13";
-            textBox13.Size = new Size(164, 155);
-            textBox13.TabIndex = 26;
-            // 
-            // textBox14
-            // 
-            textBox14.Location = new Point(825, 226);
-            textBox14.Multiline = true;
-            textBox14.Name = "textBox14";
-            textBox14.Size = new Size(153, 141);
-            textBox14.TabIndex = 27;
-            // 
             // button1
             // 
-            button1.Location = new Point(819, 797);
+            button1.Location = new Point(1170, 1328);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(159, 44);
+            button1.Size = new Size(227, 73);
             button1.TabIndex = 28;
             button1.Text = "takaisin";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            button1.Click += Backbtn_Click;
             // 
-            // hyotykasvit
+            // chililabel
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            chililabel.AutoSize = true;
+            chililabel.Location = new Point(327, 23);
+            chililabel.Name = "chililabel";
+            chililabel.Size = new Size(240, 175);
+            chililabel.TabIndex = 29;
+            chililabel.Text = "Chili                                       \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // paprikalabel
+            // 
+            paprikalabel.AutoSize = true;
+            paprikalabel.Location = new Point(213, 253);
+            paprikalabel.Name = "paprikalabel";
+            paprikalabel.Size = new Size(354, 200);
+            paprikalabel.TabIndex = 30;
+            paprikalabel.Text = "Paprika                                                         \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // herukkalabel
+            // 
+            herukkalabel.AutoSize = true;
+            herukkalabel.Location = new Point(327, 513);
+            herukkalabel.Name = "herukkalabel";
+            herukkalabel.Size = new Size(242, 150);
+            herukkalabel.TabIndex = 31;
+            herukkalabel.Text = "Herukka                                 \r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // karviainenlabel
+            // 
+            karviainenlabel.AutoSize = true;
+            karviainenlabel.Location = new Point(267, 717);
+            karviainenlabel.Name = "karviainenlabel";
+            karviainenlabel.Size = new Size(302, 175);
+            karviainenlabel.TabIndex = 32;
+            karviainenlabel.Text = "Karviainen                                          \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // kirsikkalabel
+            // 
+            kirsikkalabel.AutoSize = true;
+            kirsikkalabel.Location = new Point(301, 948);
+            kirsikkalabel.Name = "kirsikkalabel";
+            kirsikkalabel.Size = new Size(266, 175);
+            kirsikkalabel.TabIndex = 33;
+            kirsikkalabel.Text = "Kirsikka                                       \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // luumulabel
+            // 
+            luumulabel.AutoSize = true;
+            luumulabel.Location = new Point(293, 1177);
+            luumulabel.Name = "luumulabel";
+            luumulabel.Size = new Size(276, 175);
+            luumulabel.TabIndex = 34;
+            luumulabel.Text = "Luumu                                          \r\n\r\n\r\n\r\n\r\n\r\n ";
+            // 
+            // mansikkalabel
+            // 
+            mansikkalabel.AutoSize = true;
+            mansikkalabel.Location = new Point(886, 23);
+            mansikkalabel.Name = "mansikkalabel";
+            mansikkalabel.Size = new Size(231, 175);
+            mansikkalabel.TabIndex = 35;
+            mansikkalabel.Text = "Mansikka                             \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // omenalabel
+            // 
+            omenalabel.AutoSize = true;
+            omenalabel.Location = new Point(886, 262);
+            omenalabel.Name = "omenalabel";
+            omenalabel.Size = new Size(230, 175);
+            omenalabel.TabIndex = 36;
+            omenalabel.Text = "Omena                                \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // pensasmustikkalabel
+            // 
+            pensasmustikkalabel.AutoSize = true;
+            pensasmustikkalabel.Location = new Point(866, 485);
+            pensasmustikkalabel.Name = "pensasmustikkalabel";
+            pensasmustikkalabel.Size = new Size(251, 175);
+            pensasmustikkalabel.TabIndex = 37;
+            pensasmustikkalabel.Text = "Pensasmustikka                       \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // tomaattilabel
+            // 
+            tomaattilabel.AutoSize = true;
+            tomaattilabel.Location = new Point(891, 717);
+            tomaattilabel.Name = "tomaattilabel";
+            tomaattilabel.Size = new Size(225, 175);
+            tomaattilabel.TabIndex = 38;
+            tomaattilabel.Text = "Tomaatti                             \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // vadelmalabel
+            // 
+            vadelmalabel.AutoSize = true;
+            vadelmalabel.Location = new Point(876, 967);
+            vadelmalabel.Name = "vadelmalabel";
+            vadelmalabel.Size = new Size(240, 175);
+            vadelmalabel.TabIndex = 39;
+            vadelmalabel.Text = "Vadelma                                \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // paarynalabel
+            // 
+            paarynalabel.AutoSize = true;
+            paarynalabel.Location = new Point(814, 1177);
+            paarynalabel.Name = "paarynalabel";
+            paarynalabel.Size = new Size(303, 175);
+            paarynalabel.TabIndex = 40;
+            paarynalabel.Text = "Päärynä                                              \r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // viinikoynnoslabel
+            // 
+            viinikoynnoslabel.AutoSize = true;
+            viinikoynnoslabel.Location = new Point(1171, 383);
+            viinikoynnoslabel.Name = "viinikoynnoslabel";
+            viinikoynnoslabel.Size = new Size(228, 225);
+            viinikoynnoslabel.TabIndex = 41;
+            viinikoynnoslabel.Text = "Viiniköynnös                       \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // kurkkulabel
+            // 
+            kurkkulabel.AutoSize = true;
+            kurkkulabel.Location = new Point(1171, 1018);
+            kurkkulabel.Name = "kurkkulabel";
+            kurkkulabel.Size = new Size(231, 275);
+            kurkkulabel.TabIndex = 42;
+            kurkkulabel.Text = "Kurkku                                 \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            // 
+            // Hyotykasvit
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1004, 853);
+            AutoScroll = true;
+            ClientSize = new Size(1434, 1050);
+            Controls.Add(kurkkulabel);
+            Controls.Add(viinikoynnoslabel);
+            Controls.Add(paarynalabel);
+            Controls.Add(vadelmalabel);
+            Controls.Add(tomaattilabel);
+            Controls.Add(pensasmustikkalabel);
+            Controls.Add(omenalabel);
+            Controls.Add(mansikkalabel);
+            Controls.Add(luumulabel);
+            Controls.Add(kirsikkalabel);
+            Controls.Add(karviainenlabel);
+            Controls.Add(herukkalabel);
+            Controls.Add(paprikalabel);
+            Controls.Add(chililabel);
             Controls.Add(button1);
-            Controls.Add(textBox14);
-            Controls.Add(textBox13);
-            Controls.Add(textBox12);
-            Controls.Add(textBox11);
-            Controls.Add(textBox10);
-            Controls.Add(textBox9);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
             Controls.Add(pictureBox14);
             Controls.Add(pictureBox13);
             Controls.Add(pictureBox12);
@@ -370,8 +400,7 @@
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Margin = new Padding(2);
-            Name = "hyotykasvit";
+            Name = "Hyotykasvit";
             Text = "hyötykasvit";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
@@ -407,20 +436,20 @@
         private PictureBox pictureBox12;
         private PictureBox pictureBox13;
         private PictureBox pictureBox14;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private TextBox textBox10;
-        private TextBox textBox11;
-        private TextBox textBox12;
-        private TextBox textBox13;
-        private TextBox textBox14;
         private Button button1;
+        private Label chililabel;
+        private Label paprikalabel;
+        private Label herukkalabel;
+        private Label karviainenlabel;
+        private Label kirsikkalabel;
+        private Label luumulabel;
+        private Label mansikkalabel;
+        private Label omenalabel;
+        private Label pensasmustikkalabel;
+        private Label tomaattilabel;
+        private Label vadelmalabel;
+        private Label paarynalabel;
+        private Label viinikoynnoslabel;
+        private Label kurkkulabel;
     }
 }

@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Putarhasovellus2
 {
-    public partial class pensaat : Form
+    public partial class Pensaat : Form
     {
-        public pensaat()
+        public Pensaat()
         {
             InitializeComponent();
+        }
+
+        private void Backbtn_Click(object sender, EventArgs e)
+        {
+            Valikko valikko = new Valikko();
+
+            this.Close();
         }
     }
 }

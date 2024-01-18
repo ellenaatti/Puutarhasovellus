@@ -10,64 +10,67 @@ using System.Windows.Forms;
 
 namespace Putarhasovellus2
 {
-    public partial class valikko : Form
+    public partial class Valikko : Form
     {
-        public valikko()
+        public Valikko()
         {
             InitializeComponent();
         }
 
-        private void Havukasvit_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            havut havu1 = new havut();
+            Havut havu1 = new Havut();
 
             havu1.ShowDialog();
-
         }
 
-        private void Huonekasvit_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
-            huonekasvit huonekasvit = new huonekasvit();
+            Huonekasvit huonekasvit = new Huonekasvit();
 
             huonekasvit.ShowDialog();
         }
 
-        private void Köynnökset_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
-            köynnökset köynnökset = new köynnökset();
+            Hyotykasvit Hyotykasvit = new Hyotykasvit();
+
+            Hyotykasvit.ShowDialog();
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            Kesakukat Kesakukat = new Kesakukat();
+
+            Kesakukat.ShowDialog();
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            Koynnokset köynnökset = new Koynnokset();
 
             köynnökset.ShowDialog();
         }
 
-        private void Pensaat_Click(object sender, EventArgs e)
+        private void Button6_Click(object sender, EventArgs e)
         {
+            Pensaat pensaat = new Pensaat();
 
+            pensaat.ShowDialog();
         }
 
-        private void Liljat_Click(object sender, EventArgs e)
+        private void Button7_Click(object sender, EventArgs e)
         {
-            liljat liljat = new liljat();
+            Liljat liljat = new Liljat();
 
             liljat.ShowDialog();
         }
 
-        private void Pensat_Click(object sender, EventArgs e)
+        private void Button8_Click(object sender, EventArgs e)
         {
+            Perennat Perennat = new Perennat();
 
-        }
-
-        private void hyotykasvit_Click(object sender, EventArgs e)
-        {
-            hyotykasvit hyotykasvit = new hyotykasvit();
-
-            hyotykasvit.ShowDialog();
-        }
-
-        private void kesakukat_Click(object sender, EventArgs e)
-        {
-            kesakukat kesakukat = new kesakukat();
-
-            kesakukat.ShowDialog();
+            Perennat.ShowDialog();
         }
 
     }

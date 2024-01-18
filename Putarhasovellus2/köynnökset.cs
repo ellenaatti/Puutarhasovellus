@@ -10,19 +10,18 @@ using System.Windows.Forms;
 
 namespace Putarhasovellus2
 {
-    public partial class köynnökset : Form
+    public partial class Koynnokset : Form
     {
-        public köynnökset()
+        public Koynnokset()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Backbtn_Click(object sender, EventArgs e)
         {
-            valikko valikko = new valikko();
+            Valikko valikko = new Valikko();
 
             this.Close();
         }
-
     }
 }

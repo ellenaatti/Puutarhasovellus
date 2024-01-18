@@ -1,15 +1,15 @@
 namespace Putarhasovellus2
 {
-    public partial class eka : Form
+    public partial class Eka : Form
     {
-        public eka()
+        public Eka()
         {
             InitializeComponent();
         }
 
         private void valikkobtn_Click(object sender, EventArgs e)
         {
-            valikko valikko1 = new valikko();
+            Valikko valikko1 = new Valikko();
 
             valikko1.Show();
             this.Hide();

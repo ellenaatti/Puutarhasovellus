@@ -10,20 +10,18 @@ using System.Windows.Forms;
 
 namespace Putarhasovellus2
 {
-    public partial class huonekasvit : Form
+    public partial class Huonekasvit : Form
     {
-        public huonekasvit()
+        public Huonekasvit()
         {
             InitializeComponent();
         }
 
-        private void takaisinbtn2_Click(object sender, EventArgs e)
+        private void Backbtn_Click(object sender, EventArgs e)
         {
-            valikko valikko = new valikko();
+            Valikko valikko = new Valikko();
 
             this.Close();
-
-
         }
     }
 }

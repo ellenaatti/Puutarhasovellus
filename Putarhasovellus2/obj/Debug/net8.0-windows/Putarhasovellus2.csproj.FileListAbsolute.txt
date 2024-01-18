@@ -18,9 +18,11 @@ C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarha
 C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.genruntimeconfig.cache
 C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\ref\Putarhasovellus2.dll
 C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.huonekasvit.resources
-C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.köynnökset.resources
 C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Properties.Resources.resources
 C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.liljat.resources
 C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.hyotykasvit.resources
 C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.pensaat.resources
 C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.kesakukat.resources
+C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.perennat.resources
+C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.perennatt.resources
+C:\Users\s3ruel00\OneDrive - OSAO\Näyttötyö sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Koynnokset.resources

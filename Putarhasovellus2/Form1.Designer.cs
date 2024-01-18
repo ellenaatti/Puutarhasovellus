@@ -1,6 +1,6 @@
 ﻿namespace Putarhasovellus2
 {
-    partial class eka
+    partial class Eka
     {
         /// <summary>
         ///  Required designer variable.
@@ -63,7 +63,7 @@
             label1.TabIndex = 11;
             label1.Text = "Tervetuloa Pekan puutarhasovellukeen!";
             // 
-            // eka
+            // Eka
             // 
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -72,7 +72,7 @@
             Controls.Add(valikkobtn);
             Controls.Add(label3);
             Controls.Add(label1);
-            Name = "eka";
+            Name = "Eka";
             Text = "eka";
             ResumeLayout(false);
             PerformLayout();
