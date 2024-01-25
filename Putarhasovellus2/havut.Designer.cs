@@ -44,9 +44,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(539, 77);
+            pictureBox3.Location = new Point(627, 30);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(241, 240);
+            pictureBox3.Size = new Size(241, 242);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 17;
             pictureBox3.TabStop = false;
@@ -54,9 +54,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(33, 368);
+            pictureBox2.Location = new Point(28, 374);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(181, 277);
+            pictureBox2.Size = new Size(213, 322);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 16;
             pictureBox2.TabStop = false;
@@ -64,7 +64,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(20, 60);
+            pictureBox1.Location = new Point(22, 30);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(219, 290);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -73,46 +73,51 @@
             // 
             // takaisinbtn
             // 
-            takaisinbtn.Location = new Point(621, 660);
+            takaisinbtn.BackColor = Color.LightGreen;
+            takaisinbtn.Location = new Point(746, 720);
             takaisinbtn.Name = "takaisinbtn";
-            takaisinbtn.Size = new Size(143, 70);
+            takaisinbtn.Size = new Size(143, 48);
             takaisinbtn.TabIndex = 22;
             takaisinbtn.Text = "takaisin";
-            takaisinbtn.UseVisualStyleBackColor = true;
+            takaisinbtn.UseVisualStyleBackColor = false;
             takaisinbtn.Click += Backbtn_Click;
             // 
             // katajalabel
             // 
             katajalabel.AutoSize = true;
-            katajalabel.Location = new Point(256, 60);
+            katajalabel.BackColor = Color.LightGreen;
+            katajalabel.Location = new Point(259, 30);
             katajalabel.Name = "katajalabel";
-            katajalabel.Size = new Size(249, 275);
+            katajalabel.Size = new Size(311, 325);
             katajalabel.TabIndex = 23;
-            katajalabel.Text = "Kataja                                      \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            katajalabel.Text = resources.GetString("katajalabel.Text");
             // 
             // kuusilabel
             // 
             kuusilabel.AutoSize = true;
-            kuusilabel.Location = new Point(241, 368);
+            kuusilabel.BackColor = Color.LightGreen;
+            kuusilabel.Location = new Point(279, 374);
             kuusilabel.Name = "kuusilabel";
-            kuusilabel.Size = new Size(264, 275);
+            kuusilabel.Size = new Size(291, 375);
             kuusilabel.TabIndex = 24;
-            kuusilabel.Text = "Kuusi                                          \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            kuusilabel.Text = resources.GetString("kuusilabel.Text");
             // 
             // tuijatlabel
             // 
             tuijatlabel.AutoSize = true;
-            tuijatlabel.Location = new Point(541, 333);
+            tuijatlabel.BackColor = Color.LightGreen;
+            tuijatlabel.Location = new Point(600, 287);
             tuijatlabel.Name = "tuijatlabel";
-            tuijatlabel.Size = new Size(228, 300);
+            tuijatlabel.Size = new Size(289, 425);
             tuijatlabel.TabIndex = 25;
-            tuijatlabel.Text = "Tuija                                    \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
+            tuijatlabel.Text = resources.GetString("tuijatlabel.Text");
             // 
             // Havut
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 742);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(913, 780);
             Controls.Add(tuijatlabel);
             Controls.Add(kuusilabel);
             Controls.Add(katajalabel);
@@ -130,7 +135,6 @@
         }
 
         #endregion
-        private TextBox textBox1;
         private PictureBox pictureBox3;
         private PictureBox pictureBox2;
         private PictureBox pictureBox1;

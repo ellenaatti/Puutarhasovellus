@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Putarhasovellus2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b4776cbb35cfed1f88687386b1e1835ddfab07")]
 [assembly: System.Reflection.AssemblyProductAttribute("Putarhasovellus2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Putarhasovellus2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,25 +10,10 @@
     <Compile Update="huonekasvit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="hyötykasvit.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="kesäkukat.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="köynnökset.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="liljat.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="pensaat.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="perennat.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="perennatt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="valikko.cs">

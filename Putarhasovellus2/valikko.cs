@@ -31,13 +31,6 @@ namespace Putarhasovellus2
             huonekasvit.ShowDialog();
         }
 
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            Hyotykasvit Hyotykasvit = new Hyotykasvit();
-
-            Hyotykasvit.ShowDialog();
-        }
-
         private void Button4_Click(object sender, EventArgs e)
         {
             Kesakukat Kesakukat = new Kesakukat();
@@ -45,32 +38,12 @@ namespace Putarhasovellus2
             Kesakukat.ShowDialog();
         }
 
-        private void Button5_Click(object sender, EventArgs e)
-        {
-            Koynnokset köynnökset = new Koynnokset();
-
-            köynnökset.ShowDialog();
-        }
-
-        private void Button6_Click(object sender, EventArgs e)
-        {
-            Pensaat pensaat = new Pensaat();
-
-            pensaat.ShowDialog();
-        }
 
         private void Button7_Click(object sender, EventArgs e)
         {
             Liljat liljat = new Liljat();
 
             liljat.ShowDialog();
-        }
-
-        private void Button8_Click(object sender, EventArgs e)
-        {
-            Perennat Perennat = new Perennat();
-
-            Perennat.ShowDialog();
         }
 
     }

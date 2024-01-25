@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Eka));
             valikkobtn = new Button();
             label3 = new Label();
             label1 = new Label();
@@ -68,6 +69,8 @@
             AllowDrop = true;
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(800, 429);
             Controls.Add(valikkobtn);
             Controls.Add(label3);
