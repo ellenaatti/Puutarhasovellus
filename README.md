@@ -12,6 +12,7 @@ Sovellukseni käyttötarkoitus oli auttaa vähän joidenkin kasvien hoitamisessa
 
 Eniten koodistani voi huomata switch case komennon sekä välilehtien sulkemista ja takaisin menoa.
 Tein sovellukseeni timerin, että se sulkeutuu teityn ajan kuluttua. 
+<br>
 <img width="200" alt="Näyttökuva 2024-01-25 183145" src="https://github.com/ellenaatti/Puutarhasovellus/assets/151004400/7f2c5de6-a1d0-402b-a2f3-ba2a0ab52847">
 <img width="200" alt="Näyttökuva 2024-01-25 183145" src="https://github.com/ellenaatti/Puutarhasovellus/assets/151004400/eee74965-384a-487e-a5a6-9051cacb31dd">
 
