@@ -12,8 +12,8 @@ Sovellukseni käyttötarkoitus oli auttaa vähän joidenkin kasvien hoitamisessa
 
 Eniten koodistani voi huomata switch case komennon sekä välilehtien sulkemista ja takaisin menoa.
 Tein sovellukseeni timerin, että se sulkeutuu teityn ajan kuluttua. 
-<img width="277" alt="" scr="https://github.com/ellenaatti/Puutarhasovellus/assets/151004400/39094bfb-0f0e-49bb-b0e5-3689a700cafa">
-<img width="277" alt="" scr="https://github.com/ellenaatti/Puutarhasovellus/blob/master/jferibg.JPG">
+<img width="420" alt="Näyttökuva 2024-01-25 183145" src="https://github.com/ellenaatti/Puutarhasovellus/assets/151004400/7f2c5de6-a1d0-402b-a2f3-ba2a0ab52847">
+<img width="420" alt="Näyttökuva 2024-01-25 183145" src="https://github.com/ellenaatti/Puutarhasovellus/assets/151004400/eee74965-384a-487e-a5a6-9051cacb31dd">
 
 <h3>Jatkokehitysideat</h3>
 Voisin jatkossa ajoittaa tekemistäni paremmin, tehdä paremmin työn ja lisätä kukkia ja enemmän formeja. Muutenkin voisin parantua C# käytössä.
