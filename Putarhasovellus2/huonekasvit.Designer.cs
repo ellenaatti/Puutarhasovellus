@@ -1,6 +1,6 @@
 ﻿namespace Putarhasovellus2
 {
-    partial class Huonekasvit
+    partial class Greenery
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Huonekasvit));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Greenery));
             pictureBox5 = new PictureBox();
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -157,7 +157,7 @@
             kaktuslabel.TabIndex = 33;
             kaktuslabel.Text = resources.GetString("kaktuslabel.Text");
             // 
-            // Huonekasvit
+            // Greenery
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -175,7 +175,7 @@
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Name = "Huonekasvit";
+            Name = "Greenery";
             Text = "huonekasvit";
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();

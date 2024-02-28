@@ -1,6 +1,6 @@
 ﻿namespace Putarhasovellus2
 {
-    partial class Kesakukat
+    partial class Summerflower
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Kesakukat));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Summerflower));
             pictureBox9 = new PictureBox();
             pictureBox8 = new PictureBox();
             pictureBox7 = new PictureBox();
@@ -47,9 +47,10 @@
             // pictureBox9
             // 
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(624, 355);
+            pictureBox9.Location = new Point(437, 213);
+            pictureBox9.Margin = new Padding(2, 2, 2, 2);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(259, 254);
+            pictureBox9.Size = new Size(181, 152);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox9.TabIndex = 28;
             pictureBox9.TabStop = false;
@@ -57,9 +58,10 @@
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(656, 12);
+            pictureBox8.Location = new Point(459, 7);
+            pictureBox8.Margin = new Padding(2, 2, 2, 2);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(237, 237);
+            pictureBox8.Size = new Size(166, 142);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 27;
             pictureBox8.TabStop = false;
@@ -67,9 +69,10 @@
             // pictureBox7
             // 
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(27, 327);
+            pictureBox7.Location = new Point(19, 196);
+            pictureBox7.Margin = new Padding(2, 2, 2, 2);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(231, 227);
+            pictureBox7.Size = new Size(162, 136);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 26;
             pictureBox7.TabStop = false;
@@ -77,9 +80,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(27, 12);
+            pictureBox1.Location = new Point(19, 7);
+            pictureBox1.Margin = new Padding(2, 2, 2, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(289, 190);
+            pictureBox1.Size = new Size(202, 114);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 20;
             pictureBox1.TabStop = false;
@@ -87,9 +91,10 @@
             // takaisinbtn
             // 
             takaisinbtn.BackColor = Color.FromArgb(255, 192, 192);
-            takaisinbtn.Location = new Point(1044, 644);
+            takaisinbtn.Location = new Point(731, 386);
+            takaisinbtn.Margin = new Padding(2, 2, 2, 2);
             takaisinbtn.Name = "takaisinbtn";
-            takaisinbtn.Size = new Size(154, 58);
+            takaisinbtn.Size = new Size(108, 35);
             takaisinbtn.TabIndex = 38;
             takaisinbtn.Text = "takaisin";
             takaisinbtn.UseVisualStyleBackColor = false;
@@ -99,9 +104,10 @@
             // 
             amppelitlabel.AutoSize = true;
             amppelitlabel.BackColor = Color.FromArgb(255, 192, 192);
-            amppelitlabel.Location = new Point(328, 12);
+            amppelitlabel.Location = new Point(230, 7);
+            amppelitlabel.Margin = new Padding(2, 0, 2, 0);
             amppelitlabel.Name = "amppelitlabel";
-            amppelitlabel.Size = new Size(312, 300);
+            amppelitlabel.Size = new Size(209, 180);
             amppelitlabel.TabIndex = 39;
             amppelitlabel.Text = resources.GetString("amppelitlabel.Text");
             // 
@@ -109,9 +115,10 @@
             // 
             pelargonit.AutoSize = true;
             pelargonit.BackColor = Color.FromArgb(255, 192, 192);
-            pelargonit.Location = new Point(264, 327);
+            pelargonit.Location = new Point(185, 196);
+            pelargonit.Margin = new Padding(2, 0, 2, 0);
             pelargonit.Name = "pelargonit";
-            pelargonit.Size = new Size(344, 375);
+            pelargonit.Size = new Size(230, 225);
             pelargonit.TabIndex = 42;
             pelargonit.Text = resources.GetString("pelargonit.Text");
             // 
@@ -119,9 +126,10 @@
             // 
             petuniatlabel.AutoSize = true;
             petuniatlabel.BackColor = Color.FromArgb(255, 192, 192);
-            petuniatlabel.Location = new Point(899, 12);
+            petuniatlabel.Location = new Point(629, 7);
+            petuniatlabel.Margin = new Padding(2, 0, 2, 0);
             petuniatlabel.Name = "petuniatlabel";
-            petuniatlabel.Size = new Size(299, 325);
+            petuniatlabel.Size = new Size(201, 195);
             petuniatlabel.TabIndex = 46;
             petuniatlabel.Text = resources.GetString("petuniatlabel.Text");
             // 
@@ -129,19 +137,20 @@
             // 
             verenpisaralabel.AutoSize = true;
             verenpisaralabel.BackColor = Color.FromArgb(255, 192, 192);
-            verenpisaralabel.Location = new Point(889, 355);
+            verenpisaralabel.Location = new Point(622, 213);
+            verenpisaralabel.Margin = new Padding(2, 0, 2, 0);
             verenpisaralabel.Name = "verenpisaralabel";
-            verenpisaralabel.Size = new Size(309, 250);
+            verenpisaralabel.Size = new Size(207, 150);
             verenpisaralabel.TabIndex = 47;
             verenpisaralabel.Text = resources.GetString("verenpisaralabel.Text");
             // 
-            // Kesakukat
+            // Summerflower
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1217, 724);
+            ClientSize = new Size(852, 434);
             Controls.Add(verenpisaralabel);
             Controls.Add(petuniatlabel);
             Controls.Add(pelargonit);
@@ -151,7 +160,8 @@
             Controls.Add(pictureBox8);
             Controls.Add(pictureBox7);
             Controls.Add(pictureBox1);
-            Name = "Kesakukat";
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "Summerflower";
             Text = "kesäkukat";
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();

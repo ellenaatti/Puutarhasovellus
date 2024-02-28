@@ -10,18 +10,19 @@ using System.Windows.Forms;
 
 namespace Putarhasovellus2
 {
-    public partial class Havut : Form
+    public partial class Conifer : Form
     {
-        public Havut()
+        public Conifer()
         {
             InitializeComponent();
         }
 
         private void Backbtn_Click(object sender, EventArgs e)
         {
-            Valikko valikko = new Valikko();
+            Menu menu = new Menu();
 
-            this.Close();
+            this.Hide();
+            menu.Show();
         }
     }
 }

@@ -32,12 +32,7 @@ C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\bin
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\bin\Debug\net8.0-windows\Putarhasovellus2.dll
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\bin\Debug\net8.0-windows\Putarhasovellus2.pdb
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Eka.resources
-C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Havut.resources
-C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Huonekasvit.resources
-C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Kesakukat.resources
-C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Liljat.resources
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Properties.Resources.resources
-C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Valikko.resources
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.csproj.GenerateResource.cache
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.AssemblyInfoInputs.cache
@@ -49,3 +44,8 @@ C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.pdb
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.genruntimeconfig.cache
 C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\ref\Putarhasovellus2.dll
+C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Conifer.resources
+C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Greenery.resources
+C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Summerflower.resources
+C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Lilys.resources
+C:\Users\s3ruel00\OneDrive - OSAO\sovellus\Putarhasovellus2\Putarhasovellus2\obj\Debug\net8.0-windows\Putarhasovellus2.Menu.resources

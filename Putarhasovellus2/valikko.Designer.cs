@@ -1,6 +1,6 @@
 ﻿namespace Putarhasovellus2
 {
-    partial class Valikko
+    partial class Menu
     {
         /// <summary>
         /// Required designer variable.
@@ -28,92 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Valikko));
-            Liljat = new Button();
-            Kesäkukat = new Button();
-            Huonekasvit = new Button();
-            Havukasvit = new Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             Kasvit = new Label();
+            listBox1 = new ListBox();
+            button8 = new Button();
             SuspendLayout();
-            // 
-            // Liljat
-            // 
-            Liljat.BackColor = Color.DarkViolet;
-            Liljat.Location = new Point(73, 274);
-            Liljat.Name = "Liljat";
-            Liljat.Size = new Size(211, 77);
-            Liljat.TabIndex = 24;
-            Liljat.Text = "Liljat";
-            Liljat.UseVisualStyleBackColor = false;
-            Liljat.Click += Button7_Click;
-            // 
-            // Kesäkukat
-            // 
-            Kesäkukat.BackColor = Color.LightCoral;
-            Kesäkukat.Location = new Point(540, 274);
-            Kesäkukat.Name = "Kesäkukat";
-            Kesäkukat.Size = new Size(211, 77);
-            Kesäkukat.TabIndex = 22;
-            Kesäkukat.Text = "Kesäkukat";
-            Kesäkukat.UseVisualStyleBackColor = false;
-            Kesäkukat.Click += Button4_Click;
-            // 
-            // Huonekasvit
-            // 
-            Huonekasvit.BackColor = Color.PaleGreen;
-            Huonekasvit.Location = new Point(540, 117);
-            Huonekasvit.Name = "Huonekasvit";
-            Huonekasvit.Size = new Size(211, 77);
-            Huonekasvit.TabIndex = 20;
-            Huonekasvit.Text = "Huonekasvit";
-            Huonekasvit.UseVisualStyleBackColor = false;
-            Huonekasvit.Click += Button2_Click;
-            // 
-            // Havukasvit
-            // 
-            Havukasvit.BackColor = Color.ForestGreen;
-            Havukasvit.Location = new Point(73, 117);
-            Havukasvit.Name = "Havukasvit";
-            Havukasvit.Size = new Size(211, 77);
-            Havukasvit.TabIndex = 19;
-            Havukasvit.Text = "Havukasvit";
-            Havukasvit.UseVisualStyleBackColor = false;
-            Havukasvit.Click += Button1_Click;
             // 
             // Kasvit
             // 
             Kasvit.AutoSize = true;
-            Kasvit.BackColor = Color.White;
-            Kasvit.Location = new Point(389, 33);
+            Kasvit.BackColor = Color.FromArgb(255, 192, 255);
+            Kasvit.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Kasvit.Location = new Point(250, 9);
+            Kasvit.Margin = new Padding(2, 0, 2, 0);
             Kasvit.Name = "Kasvit";
-            Kasvit.Size = new Size(58, 25);
+            Kasvit.Size = new Size(87, 37);
             Kasvit.TabIndex = 18;
             Kasvit.Text = "Kasvit";
             // 
-            // Valikko
+            // listBox1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            listBox1.BackColor = Color.FromArgb(255, 192, 255);
+            listBox1.Font = new Font("Showcard Gothic", 27.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            listBox1.FormattingEnabled = true;
+            listBox1.ItemHeight = 46;
+            listBox1.Items.AddRange(new object[] { "Huonekasvit", "Kesäkukat", "Liljat", "Havut" });
+            listBox1.Location = new Point(125, 63);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(343, 188);
+            listBox1.TabIndex = 19;
+            // 
+            // button8
+            // 
+            button8.BackColor = Color.FromArgb(255, 192, 255);
+            button8.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button8.Location = new Point(250, 276);
+            button8.Name = "button8";
+            button8.Size = new Size(102, 37);
+            button8.TabIndex = 20;
+            button8.Text = "Sivulle";
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
+            // 
+            // Menu
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(844, 445);
-            Controls.Add(Liljat);
-            Controls.Add(Kesäkukat);
-            Controls.Add(Huonekasvit);
-            Controls.Add(Havukasvit);
+            ClientSize = new Size(591, 325);
+            Controls.Add(button8);
+            Controls.Add(listBox1);
             Controls.Add(Kasvit);
-            Name = "Valikko";
+            Margin = new Padding(2);
+            Name = "Menu";
             Text = "valikko";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Button Liljat;
-        private Button Kesäkukat;
-        private Button Huonekasvit;
-        private Button Havukasvit;
         private Label Kasvit;
+        private ListBox listBox1;
+        private Button button8;
     }
 }

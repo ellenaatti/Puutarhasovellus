@@ -1,6 +1,6 @@
 ﻿namespace Putarhasovellus2
 {
-    partial class Liljat
+    partial class Lilys
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Liljat));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lilys));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -166,7 +166,7 @@
             label6.Text = resources.GetString("label6.Text");
             label6.Click += label6_Click;
             // 
-            // Liljat
+            // Lilys
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -186,7 +186,7 @@
             Controls.Add(pictureBox1);
             DoubleBuffered = true;
             Margin = new Padding(4, 5, 4, 5);
-            Name = "Liljat";
+            Name = "Lilys";
             Text = "liljat";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

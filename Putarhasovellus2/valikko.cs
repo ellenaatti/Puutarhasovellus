@@ -7,44 +7,51 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Putarhasovellus2
 {
-    public partial class Valikko : Form
+    public partial class Menu : Form
     {
-        public Valikko()
+        public Menu()
         {
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
         {
-            Havut havu1 = new Havut();
+            if (listBox1.SelectedIndex == -1)
+            {
+                MessageBox.Show("Valitse kasvilaji");
+                return;
+            }
 
-            havu1.ShowDialog();
+            switch (listBox1.SelectedItem.ToString())
+            {
+                case "Havut":
+                    Conifer conifer = new Conifer();
+                    conifer.Show();
+                    this.Hide();
+                    break;
+
+                case "Liljat":
+                    Lilys lilys = new Lilys();
+                    lilys.Show();
+                    this.Hide();
+                    break;
+
+                case "Kesäkukat":
+                    Summerflower summerflower = new Summerflower();
+                    summerflower.Show();
+                    this.Hide();
+                    break;
+
+                case "Huonekasvit":
+                    Greenery greenery = new Greenery();
+                    greenery.Show();
+                    this.Hide();
+                    break;
+            }
         }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-            Huonekasvit huonekasvit = new Huonekasvit();
-
-            huonekasvit.ShowDialog();
-        }
-
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            Kesakukat Kesakukat = new Kesakukat();
-
-            Kesakukat.ShowDialog();
-        }
-
-
-        private void Button7_Click(object sender, EventArgs e)
-        {
-            Liljat liljat = new Liljat();
-
-            liljat.ShowDialog();
-        }
-
     }
 }

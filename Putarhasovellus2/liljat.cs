@@ -10,18 +10,19 @@ using System.Windows.Forms;
 
 namespace Putarhasovellus2
 {
-    public partial class Liljat : Form
+    public partial class Lilys : Form
     {
-        public Liljat()
+        public Lilys()
         {
             InitializeComponent();
         }
 
         private void Backbtn_Click(object sender, EventArgs e)
         {
-            Valikko valikko = new Valikko();
+            Menu menu = new Menu();
 
-            this.Close();
+            this.Hide();
+            menu.Show();
         }
 
         private void label6_Click(object sender, EventArgs e)
